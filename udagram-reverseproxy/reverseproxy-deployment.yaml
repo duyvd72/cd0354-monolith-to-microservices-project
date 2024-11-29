@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: reverseproxy
-          image: dylanvu72/reverseproxy:latest
+          image: dylanvu72/reverseproxy:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080

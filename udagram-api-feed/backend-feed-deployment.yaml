@@ -15,7 +15,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-        - image: dylanvu72/udagram-api-feed:latest
+        - image: dylanvu72/udagram-api-feed:v1
           name: backend-feed
           imagePullPolicy: Always
           resources:
